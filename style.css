@@ -1,0 +1,699 @@
+:root{
+
+    --clr-primary-dmagenta:hsl(300, 43%, 22%);
+    --clr-primary-softpink:hsl(333, 80%, 67%);
+
+    --clr-neutral-dgmagenta:hsl(303, 10%, 53%);
+    --clr-neutral-lgmagenta:hsl(300, 24%, 96%);
+    --clr-neutral-white:hsl(0, 0%, 100%);
+
+    --ff-accent: 'League Spartan', sans-serif;
+    --fw-regular:400;
+    --fw-medium:500;
+    --fw-bold:700;
+
+}
+
+*{
+
+
+    margin: 0 auto;
+    padding: 0 auto;
+    
+    
+   
+
+
+}
+
+
+
+body{
+
+
+    background-color: whitesmoke;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    max-width: 1200px;
+    max-height: 600px;
+    padding: 0;
+    margin: 0 auto;
+    
+    
+
+}
+
+
+
+
+
+
+.container{
+
+
+    
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    text-align: center;
+    height: 50%;
+    
+   
+
+
+
+
+}
+
+.alloftopside{
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
+    align-items:flex-end;
+  
+    
+    
+    
+
+}
+
+.product__title{
+    color: var(--clr-primary-dmagenta);
+    font-size: 56px;
+    line-height: 0.85em;
+    font-family: var(--ff-accent);
+    font-weight: var(--fw-bold);
+    
+    margin-right: 100px;
+}
+
+
+.product__description{
+
+    color: var(--clr-primary-dmagenta);
+    font-size: 1.2em;
+    font-family: var(--ff-accent);
+    font-weight: var(--fw-regular);
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.product__together{
+
+    display: grid;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-style: none;
+    
+
+}
+
+
+.star{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    border-radius: 2em;
+    width: 100%;
+    align-content: center;
+    margin-bottom: 80px;
+    
+
+}
+
+.star__reviews {
+
+    display:flex;
+    background-color: hsl(300, 24%, 96%);
+    font-family: var(--ff-accent);
+    font-weight: bold;
+    color: var(--clr-primary-dmagenta);
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: .5em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    width: 375px;
+    text-align: center;
+    align-items: center;
+    
+    
+
+}
+
+.star__guru {
+
+    display:flex;
+    background-color: hsl(300, 24%, 96%);
+    font-family: var(--ff-accent);
+    font-weight: bold;
+    color: var(--clr-primary-dmagenta);
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: .5em;
+   padding-top: 12px;
+   padding-bottom: 12px;
+    font-size: 15px;
+    width: 375px;
+    text-align: center;
+    align-items: center;
+    margin-left: 165px;
+    
+    
+
+}
+
+.star__besttech{
+
+    display:flex;
+    background-color: hsl(300, 24%, 96%);
+    font-family: var(--ff-accent);
+    font-weight: bold;
+    color: var(--clr-primary-dmagenta);
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: .5em;
+   padding-top: 12px;
+   padding-bottom: 12px;
+    font-size: 15px;
+    width: 375px;
+    text-align: center;
+    align-items: center;
+    margin-left: 200px;
+    
+
+}
+
+.icons{
+
+
+    display: flex;
+
+}
+
+.star__guru img{
+
+
+    display: flex;
+    width: 17px;
+    height: 16px;
+    padding-left: 5px;
+
+}
+
+.star__reviews img{
+    display: flex;
+    width: 17px;
+    height: 16px;
+    padding-left: 5px;
+}
+
+.star__besttech img{
+    display: flex;
+    width: 17px;
+    height: 16px;
+    padding-left: 5px;
+
+}
+
+
+.rated__guru{
+
+    margin-left: 15px;
+    
+
+}
+
+.rated__besttech{
+
+    margin-left: 15px;
+}
+
+
+.rated__reviews{
+
+margin-left: 15px;
+
+
+}
+
+
+.container{
+
+ 
+}
+
+.reviews{
+
+
+    display: flex;
+    font-family: var(--ff-accent);
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+    
+    
+
+}
+
+.profile-card{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    
+    margin-right: 60px;
+    width: 200px;
+    margin: 0;
+    
+}
+
+.coltons__review{
+
+    background-color:var(--clr-primary-dmagenta);
+    width: 100%;
+    height: 100%;
+    border-radius: .4em;
+    display: grid;
+    padding: 40px;
+    align-content: center;
+    
+
+}
+
+
+.irenes__review{
+
+    background-color:var(--clr-primary-dmagenta);
+    width: 100%;
+    height: 100%;
+    border-radius: .4em;
+    display: grid;
+    align-content: center;
+    margin-top: 20px;
+    margin-left:1px;
+    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+
+.annes__review{
+
+    
+    background-color:var(--clr-primary-dmagenta);
+    width: 100%;
+    height: 100%;
+    border-radius: .4em;
+    display: grid;
+    align-content: center;
+    margin-top:40px;
+    margin-left: 1px;
+    padding: 40px;
+
+}
+
+.comments{
+
+
+    color: var(--clr-neutral-white);
+    display: flex;
+    text-align: left;
+    align-items: center;
+    align-content: center;
+    font-family: var(--ff-accent);
+    font-weight: var(--fw-medium);
+    font-size: 14.5px;
+    
+}
+
+
+.nameandverify{
+    display: grid;
+    text-align: justify;
+    padding-right: 30px;
+    
+    
+}
+
+
+.name__colton{
+
+    
+    color: var(--clr-neutral-white);
+    text-align: justify;
+
+}
+
+
+.name__irene{
+
+    color: var(--clr-neutral-white);
+
+}
+
+
+.name__anne{
+
+    color: var(--clr-neutral-white);
+
+}
+
+
+.verified{
+
+color:var(--clr-primary-softpink);
+text-align: justify;
+
+}
+
+
+
+.img__colton img{
+
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    
+
+}
+
+.img__irene img{
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.img__anne img{
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+
+  @media (max-width: 1060px) {
+
+
+
+
+    .container{
+
+        display: flex;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    
+    
+    .alloftopside {
+      text-align: center;
+      display: block;
+      padding-bottom: 0;
+    }
+
+
+
+    .product__title{
+        text-align: center;
+        margin: auto;
+        padding-right: 20px;
+    }
+
+    .product__description{
+
+        text-align:justify;
+        text-align: center;
+        margin-top: 28px;
+        font-size: 23px;
+        padding-left: 50px;
+        padding-right: 60px;
+
+    }
+        
+        
+
+    .star__reviews{
+
+        padding-right: 30px;
+    
+    }
+
+    .star__guru{
+        padding-right: 30px;
+    }
+
+    .star__besttech{
+        padding-right: 30px;
+    }
+
+
+    .star{
+
+        text-align: center;
+        justify-content: center;
+        padding-right: 50px;
+
+
+    }
+
+
+
+    .star__reviews, .star__guru, .star__besttech{
+
+
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .reviews {
+
+
+      display: block;
+      padding: 0 auto;
+      margin: 0 auto;
+      height: 100%;
+    
+
+    }
+
+
+
+
+    .coltons__review{
+
+        width: 50%;
+        padding: 0 auto;
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+    }
+
+
+    .irenes__review{
+
+        width: 50%;
+        padding: 0 auto;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .annes__review{
+
+        width: 50%;
+        padding: 0 auto;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+   
+
+
+    .profile-card{
+
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+
+  }
+
+@media (max-width: 1060px) {
+
+
+
+
+    .container{
+
+        display: flex;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    
+    
+    .alloftopside {
+      text-align: center;
+      display: block;
+      padding-bottom: 0;
+    }
+
+
+
+    .product__title{
+        text-align: center;
+        margin: auto;
+    }
+
+    .product__description{
+
+        text-align:justify;
+        text-align: center;
+        margin-top: 28px;
+        font-size: 23px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+        
+        
+
+    .star__reviews{
+
+        padding: 10px;
+    
+    }
+
+    .star__guru{
+        padding: 10px;
+    }
+
+    .star__besttech{
+        padding: 10px;
+    }
+
+
+    .star{
+
+        text-align: center;
+        justify-content: center;
+        padding-right: 50px;
+
+
+    }
+
+
+
+    .star__reviews, .star__guru, .star__besttech{
+
+
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        margin: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .reviews {
+
+
+    display: block;
+      padding: 0 auto;
+      margin: 0 auto;
+      height: 100%;
+    
+
+    }
+
+
+
+
+    .coltons__review{
+
+        width: 60%;
+        padding: 0 auto;
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+    }
+
+
+    .irenes__review{
+
+        width: 60%;
+        padding: 0 auto;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .annes__review{
+
+        width: 60%;
+        padding: 0 auto;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+   
+
+
+    .profile-card{
+
+
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+    .comments{
+
+
+        margin-top: 20px;
+
+    }
+
+  }
+ 
+
+
